@@ -18,7 +18,7 @@ export const PhotoGenerator: React.FC = () => {
         setError(null);
 
         try {
-            const response = await fetch('https://ai16z-image-generator-8o1vvy1vb-rubys-projects-fb9e0c83.vercel.app/api/generate-image', {
+            const response = await fetch('https://ai16z-image-generator-hnxc8rtju-rubys-projects-fb9e0c83.vercel.app/api/generate-image', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
